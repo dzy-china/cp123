@@ -1,0 +1,29 @@
+{
+  "name": "cp123",
+  "version": "0.1.1",
+  "keywords": [
+    "create project",
+    "cli",
+    "脚手架",
+    "项目模板"
+  ],
+  "description": "一个node环境, 支持下载多个内置github仓库的脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "cp123": "cli/index.js"
+  },
+  "scripts": {
+    "start": "node cli/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.3",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.4.1",
+    "rimraf": "^5.0.1"
+  }
+}
